@@ -10,6 +10,8 @@ Dunwich Type Founders cares what you think! Please file issues on the Github pro
 
 At present there is no historical model for Padyakke as I am not aware of any extra light or extended Kannada typeface. If you know of any please let me know! Shapes and proportions of Padyakke are based on Adobe Kannada and Noto Kannada.
 
+Source files for the PDF proofs are in the Dunwich Type proofs repository: https://github.com/DunwichType/DTF_Proofs
+
 Padyakke was developed with Glyphs 2 available from http://www.glyphsapp.com.
 
 Thanks to:
