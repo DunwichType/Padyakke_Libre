@@ -1,0 +1,16 @@
+Padyakke RC1 Known problems
+
+Spacing and kerning of the subscript conjuncts needs to be more consistent. It will be improved in a later release.
+
+Latin glyphs are not kerned. This includes latin punctuation mark + kannada letter pairs. These will be kerned after the final release of BioRhyme. 
+
+TTFA creates a visible break in the intersection in the ma subscript glyphs (At least on Windows 7 it does). I will notify the TTFA devs. 
+
+If exported directly from Glyphs there will be problems with the GDEF table that will break kerning in some software. The Glyphs developers are working on this.
+
+To fix this:
+- Export the font
+- Go to your glyphs temporary directory
+- Manually remove everything after the DIST feature
+- Run generateFont.command. This will generate an OpenType font without the broken GDEF table.
+- You’ll have to convert the working OpenType fonts to TTF with another tool.

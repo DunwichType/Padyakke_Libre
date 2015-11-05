@@ -14,16 +14,6 @@ Source files for the PDF proofs are in the Dunwich Type proofs repository: https
 
 Padyakke was developed with Glyphs 2 available from http://www.glyphsapp.com.
 
-Thanks to:
-Google
-Dave Crossland
-Aoife Mooney
-Indian Type Foundry
-Georg Seifert
-John Hudson
-Erin McLaughlin
-Miguel Sousa
-William Bright
-Akira Nakanishi
-The Unicode Consortium
-Electric Wizard
+Thanks To
+
+Google, Dave Crossland, Aoife Mooney, Indian Type Foundry, Georg Seifert, John Hudson, Erin McLaughlin, Miguel Sousa, William Bright, Akira Nakanishi, The Unicode Consortium, Laurence Anthony, Christos Christodoulopoulos, Siva Reddy, Richard Ishida, and Electric Wizard.
