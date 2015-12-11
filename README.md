@@ -2,6 +2,8 @@
 
 Padyakke is a typeface developed by James Puckett of Dunwich Type Founders. Padyakke is a Kannada typeface intended to pair with BioRhyme by Aoife Mooney (https://github.com/aoifemooney/makingbiorhyme). The extra light extended font currently being developed is intended for use in presentations. 
 
+The TrueType Padyakke font is manually hinted. It was hinted with Glyphs, so hints are in the source file.
+
 Padyakke contains data from BioRhyme by Aoife Mooney. BioRhyme can be found at: https://github.com/aoifemooney/makingbiorhyme
 
 Padyakke contains data from Hind Mysuru by Indian Type Foundry. Hind Mysuru can be found at: https://github.com/itfoundry/hind-mysuru
