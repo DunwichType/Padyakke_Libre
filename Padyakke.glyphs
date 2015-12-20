@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-"Y@2"
-);
 classes = (
 {
 code = "knmvR knmvRR knAIlengthmark knKAc2 knKHAc2 knGAc2 knGHAc2 knNGAc2 knCAc2 knCHAc2 knJAc2 knJHAc2 knNYAc2 knTTAc2 knTTHAc2 knDDAc2 knDDHAc2 knNNAc2 knTAc2 knTHAc2 knDAc2 knDHAc2 knNAc2 knPAc2 knPHAc2 knBAc2 knBHAc2 knMAc2 knYAc2 knRAc2 knLAc2 knVAc2 knSHAc2 knSSAc2 knSAc2 knHAc2 knRRAc2 knLLAc2 knLLLAc2 knKSSAc2 knTAc2_RAc2 ";
@@ -87551,6 +87548,7 @@ nodes = (
 width = 926;
 },
 {
+associatedMasterId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
 background = {
 paths = (
 {
@@ -87738,6 +87736,7 @@ nodes = (
 width = 696;
 },
 {
+associatedMasterId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
 layerId = "543F9737-16F7-428D-9F96-2EBD9FC8D3B6";
 name = Light;
 paths = (
@@ -92468,6 +92467,10 @@ customParameters = (
 {
 name = "GASP Table";
 value = "New Value";
+},
+{
+name = familyName;
+value = "Padyakke Wide";
 }
 );
 interpolationWeight = 0;
