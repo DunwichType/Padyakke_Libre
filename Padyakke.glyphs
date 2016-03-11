@@ -92474,8 +92474,7 @@ value = "Padyakke Wide";
 }
 );
 interpolationWeight = 0;
-name = Thin;
-weightClass = Thin;
+name = Regular;
 }
 );
 kerning = {
