@@ -524,6 +524,11 @@ name = DisableAllAutomaticBehaviour;
 value = 1;
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
