@@ -537,6 +537,10 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
+name = vendorID;
+value = "DTF ";
+},
+{
 name = trademark;
 value = "Padyakke is a trademark of Dunwich Type Founders.";
 }
