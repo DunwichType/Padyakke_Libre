@@ -1,6 +1,8 @@
 # Padyakke Libre
 
-Padyakke is a Kannada typeface developed by James Puckett of Dunwich Type Founders. Official source files and compiled fonts are released at: https://github.com/DunwichType/Padyakke_Libre
+Padyakke is a wide, airy, and friendly font for the Kannada writing system.  Its gracefully balanced thin strokes rise up over sumptuously swollen bottoms. James Puckett designed Padyakke to pair with Aoife Mooney’s latin typeface BioRhyme; thus BioRhyme’s idosyncratic bowls, not-quite-perpendicular stroke terminals, and lachrymae live in Padyakke.
+
+Official source files and compiled fonts are released at: https://github.com/DunwichType/Padyakke_Libre
 
 Dunwich Type Founders cares what you think! Please file issues on the Github project issue tracker, at https://github.com/DunwichType/Padyakke_Libre/issues or contact me privately at padyakkefonts@gmail.com.
 
