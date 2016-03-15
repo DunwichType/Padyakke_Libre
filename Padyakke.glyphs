@@ -9,7 +9,7 @@ code = "knmvR.following knmvRR.following knAIlengthmark.following knKAc2.followi
 name = BELOW_BASE_MARKS_FOLLOWING;
 }
 );
-copyright = "Copyright \U00A9 2015 by James Puckett. All rights reserved. Copyright \U00A9 2015 by Aoife Mooney. All rights reserved. Copyright \U00A9 2015 by Indian Type Foundry. All rights reserved.";
+copyright = "Copyright (c) 2015 The Padyakke Project Authors (padyakkefonts@gmail.com).";
 customParameters = (
 {
 name = glyphOrder;
@@ -522,6 +522,27 @@ value = "Conjunct Size: scale width to 98.3%";
 {
 name = DisableAllAutomaticBehaviour;
 value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = "DTF ";
+},
+{
+name = trademark;
+value = "Padyakke is a trademark of Dunwich Type Founders.";
 }
 );
 date = "2015-09-17 23:00:20 +0000";
