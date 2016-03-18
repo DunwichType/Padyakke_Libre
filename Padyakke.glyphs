@@ -9,7 +9,7 @@ code = "knmvR.following knmvRR.following knAIlengthmark.following knKAc2.followi
 name = BELOW_BASE_MARKS_FOLLOWING;
 }
 );
-copyright = "Copyright \U00A9 2015 by James Puckett. All rights reserved. Copyright \U00A9 2015 by Aoife Mooney. All rights reserved. Copyright \U00A9 2015 by Indian Type Foundry. All rights reserved.";
+copyright = "Copyright (C) 2016 by James Puckett. All rights reserved.";
 customParameters = (
 {
 name = glyphOrder;
@@ -527,7 +527,7 @@ value = 1;
 date = "2015-09-17 23:00:20 +0000";
 designer = "James Puckett";
 designerURL = "http://www.dunwichtype.com";
-familyName = "Padyakke";
+familyName = "Padyakke Extended One";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem knd2 dflt;\012languagesystem knda dflt;";
@@ -92467,15 +92467,10 @@ customParameters = (
 {
 name = "GASP Table";
 value = "New Value";
-},
-{
-name = familyName;
-value = "Padyakke Wide";
 }
 );
 interpolationWeight = 0;
-name = Thin;
-weightClass = Thin;
+name = Regular;
 }
 );
 kerning = {
@@ -95084,5 +95079,5 @@ HV = " ";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 2;
 }
