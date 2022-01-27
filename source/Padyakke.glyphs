@@ -763,7 +763,6 @@ verticalStems = (
 23
 );
 weight = Light;
-weightValue = 0;
 xHeight = 357;
 }
 );
