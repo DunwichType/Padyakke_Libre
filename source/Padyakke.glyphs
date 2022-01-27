@@ -103180,17 +103180,6 @@ width = 955;
 );
 instances = (
 {
-customParameters = (
-{
-name = "GASP Table";
-value = "New Value";
-},
-{
-name = "TTFAutohint options";
-value = "--hinting-range-min=14 --hinting-range-max=48 --fallback-stem-width=24 --strong-stem-width=GD";
-}
-);
-interpolationWeight = 0;
 instanceInterpolations = {
 "034236B8-3FA8-43DA-9EDA-EFF269A687EC" = 1;
 };
