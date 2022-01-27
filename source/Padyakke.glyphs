@@ -1,8 +1,5 @@
 {
 .appVersion = "3091";
-DisplayStrings = (
-"/thinspace"
-);
 classes = (
 {
 code = "A A.alt Aacute Abreve Acircumflex Acircumflexhookabove Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q Q.swsh R R.swsh Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Delta Omega";
@@ -769,6 +766,18 @@ position = "{-50, -504}";
 },
 {
 position = "{-192, -523}";
+},
+{
+position = "{10, 318}";
+},
+{
+position = "{10, 318}";
+},
+{
+position = "{10, 383}";
+},
+{
+position = "{10, 383}";
 }
 );
 horizontalStems = (
@@ -86754,7 +86763,7 @@ unicode = 00B9;
 {
 color = 0;
 glyphname = twosuperior;
-lastChange = "2016-05-06 20:28:44 +0000";
+lastChange = "2022-01-27 14:45:58 +0000";
 layers = (
 {
 hints = (
@@ -86921,6 +86930,43 @@ rightMetricsKey = three.numr;
 unicode = 00B3;
 },
 {
+glyphname = foursuperior;
+lastChange = "2022-01-27 14:46:13 +0000";
+layers = (
+{
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+paths = (
+{
+closed = 1;
+nodes = (
+"305 417 LINE",
+"305 606 LINE",
+"274 606 LINE",
+"30 417 LINE",
+"30 395 LINE",
+"281 395 LINE",
+"281 318 LINE",
+"305 318 LINE",
+"305 395 LINE",
+"397 395 LINE",
+"397 417 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"281 587 LINE",
+"281 417 LINE",
+"64 417 LINE"
+);
+}
+);
+width = 407;
+}
+);
+unicode = 2074;
+},
+{
 color = 0;
 glyphname = fraction;
 lastChange = "2016-04-01 20:35:58 +0000";
@@ -87079,6 +87125,16 @@ width = 136;
 );
 widthMetricsKey = "=space/2";
 unicode = 2009;
+},
+{
+glyphname = zerowidthspace;
+layers = (
+{
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+width = 0;
+}
+);
+unicode = 200B;
 },
 {
 color = 0;
@@ -98293,6 +98349,21 @@ leftKerningGroup = commaturnedabovecomb;
 rightKerningGroup = commaturnedabovecomb;
 },
 {
+glyphname = doubleprime;
+lastChange = "2022-01-27 14:44:36 +0000";
+layers = (
+{
+components = (
+{
+name = doubleprimemod;
+}
+);
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+width = 506;
+}
+);
+},
+{
 color = 0;
 glyphname = hookabove;
 lastChange = "2022-01-27 14:34:36 +0000";
@@ -98342,6 +98413,21 @@ nodes = (
 }
 );
 width = 384;
+}
+);
+},
+{
+glyphname = prime;
+lastChange = "2022-01-27 14:44:25 +0000";
+layers = (
+{
+components = (
+{
+name = primemod;
+}
+);
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+width = 325;
 }
 );
 },
