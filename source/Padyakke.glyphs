@@ -98350,7 +98350,7 @@ rightKerningGroup = commaturnedabovecomb;
 },
 {
 glyphname = doubleprime;
-lastChange = "2022-01-27 14:44:36 +0000";
+lastChange = "2022-01-27 15:24:41 +0000";
 layers = (
 {
 components = (
@@ -98362,6 +98362,7 @@ layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
 width = 506;
 }
 );
+unicode = 2033;
 },
 {
 color = 0;
@@ -98418,7 +98419,7 @@ width = 384;
 },
 {
 glyphname = prime;
-lastChange = "2022-01-27 14:44:25 +0000";
+lastChange = "2022-01-27 15:24:28 +0000";
 layers = (
 {
 components = (
@@ -98430,6 +98431,7 @@ layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
 width = 325;
 }
 );
+unicode = 2032;
 },
 {
 color = 0;
