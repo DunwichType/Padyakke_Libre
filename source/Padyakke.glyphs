@@ -89580,11 +89580,11 @@ unicode = 201A;
 },
 {
 glyphname = nonbreakingspace;
-lastChange = "2015-11-25 06:27:54 +0000";
+lastChange = "2022-01-27 14:15:34 +0000";
 layers = (
 {
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
-width = 242;
+width = 272;
 }
 );
 unicode = 00A0;
