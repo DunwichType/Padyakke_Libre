@@ -1,5 +1,8 @@
 {
-.appVersion = "895";
+.appVersion = "3091";
+DisplayStrings = (
+"/knvR/knvR/knvRR/knvRR/knmUU/knmUU/knmE/knmAI/knmAI/knCA/knCA/knVA/knVA/knVirama/knDDHAc2/knDDHI/knDDHI/knCU/knPHU/knPHU/knCUU/knTAU/knTAU/knJHA.base j/ldot"
+);
 classes = (
 {
 code = "A A.alt Aacute Abreve Acircumflex Acircumflexhookabove Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q Q.swsh R R.swsh Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Delta Omega";
@@ -521,17 +524,18 @@ knTAc2_RAc2.following
 );
 },
 {
-name = note;
-value = "Conjunct Size: scale width to 98.3%";
-},
-{
 name = DisableAllAutomaticBehaviour;
 value = 1;
+},
+{
+name = note;
+value = "Conjunct Size: scale width to 98.3%";
 }
 );
 date = "2015-09-17 23:00:20 +0000";
 designer = "James Puckett";
 designerURL = "http://www.dunwichtype.com";
+disablesNiceNames = 1;
 familyName = "Padyakke Expanded One";
 featurePrefixes = (
 {
@@ -601,32 +605,32 @@ name = swsh;
 {
 code = "#t & f broken spine forms\012\012sub f by f.alt;\012\012sub t by t.alt;\012sub tbar by tbar.alt;\012sub tcaron by tcaron.alt;\012sub tcedilla by tcedilla.alt;\012sub tcommaaccent by tcommaaccent.alt;\012\012\012\012\012\012\012";
 name = ss01;
-notes = "Name:	t and f broken spine forms";
+notes = "Name: t and f broken spine forms";
 },
 {
 code = "# a & g single storey forms\012\012sub a by a.alt2;\012sub aacute by aacute.alt2;\012sub abreve by abreve.alt2;\012sub acircumflex by acircumflex.alt2;\012sub adieresis by adieresis.alt2;\012sub agrave by agrave.alt2;\012sub amacron by amacron.alt2;\012sub aogonek by aogonek.alt2;\012sub aring by aring.alt2;\012sub atilde by atilde.alt2;\012\012sub g by g.alt;\012sub gcommaaccent by gcommaaccent.alt;\012sub gdotaccent by gdotaccent.alt;\012sub gbreve by gbreve.alt;";
 name = ss02;
-notes = "Name:	single storey a, g";
+notes = "Name: single storey a, g";
 },
 {
 code = "# k x 7 2 flip diagonal/curved forms\012\012sub k by k.alt;\012sub kcommaaccent by kcommaaccent.alt;\012\012sub x by x.alt;\012\012sub seven by seven.alt;\012sub two by two.alt;";
 name = ss03;
-notes = "Name:	flip diagonal and looped forms";
+notes = "Name: flip diagonal and looped forms";
 },
 {
 code = "#z curved to straight forms\012sub z by z.alt;\012sub zacute by zacute.alt;\012sub zcaron by zcaron.alt;\012sub zdotaccent by zdotaccent.alt;\012sub G by G.alt;\012sub Gdotaccent by Gdotaccent.alt;\012sub Gbreve by Gbreve.alt;\012sub Gcommaaccent by Gcommaaccent.alt;\012";
 name = ss04;
-notes = "Name:	G, z curved to straight forms";
+notes = "Name: G, z curved to straight forms";
 },
 {
 code = "sub a'n'g'r'y' by angry;\012sub n'e'u't'r'a'l' by neutral;\012sub h'a'p'p'y' by happy;\012sub s'a'd' by sad;\012sub s'u'r'p'r'i's'e'd'by surprised;\012sub a'f'r'a'i'd' by afraid;\012sub d'i's'g'u's't'e'd' by disgusted;\012\012sub angry.rev by angry;\012sub neutral.rev by neutral;\012sub happy.rev by happy;\012sub sad.rev by sad;\012sub surprised.rev by surprised;\012sub afraid.rev by afraid;\012sub disgusted.rev by disgusted;";
 name = ss05;
-notes = "Name:	emotion to emoticon";
+notes = "Name: emotion to emoticon";
 },
 {
 code = "sub a'n'g'r'y' by angry.rev;\012sub n'e'u't'r'a'l' by neutral.rev;\012sub h'a'p'p'y' by happy.rev;\012sub s'a'd' by sad.rev;\012sub s'u'r'p'r'i's'e'd' by surprised.rev;\012sub a'f'r'a'i'd' by afraid.rev;\012sub d'i's'g'u's't'e'd' by disgusted.rev;\012\012sub angry by angry.rev;\012sub neutral by neutral.rev;\012sub happy by happy.rev;\012sub sad by sad.rev;\012sub surprised by surprised.rev;\012sub afraid by afraid.rev;\012sub disgusted by disgusted.rev;\012";
 name = ss06;
-notes = "Name:	emotion to emoticon reversed out";
+notes = "Name: emotion to emoticon reversed out";
 },
 {
 code = "sub A by A.alt;\012sub Aacute by Aacute.alt;\012sub Abreve by Abreve.alt;\012sub Acircumflex by Acircumflex.alt;\012sub Acircumflexhookabove by Acircumflexhookabove.alt;\012sub Adieresis by Adieresis.alt;\012sub Agrave by Agrave.alt;\012sub Amacron by Amacron.alt;\012sub Aogonek by Aogonek.alt;\012sub Aring by Aring.alt;\012sub Atilde by Atilde.alt;";
@@ -661,8 +665,9 @@ customParameters = (
 name = TTFStems;
 value = (
 {
-Name = Horizontals;
-Width = 22;
+horizontal = 0;
+name = Horizontals;
+width = 22;
 }
 );
 },
@@ -3371,31 +3376,29 @@ category = Letter;
 {
 color = 3;
 glyphname = knvR;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 979, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 979, 0}";
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 607, 0}";
 piece = {
 Width = 194;
 };
+transform = "{1, 0, 0, 1, 607, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 492, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 492, 0}";
 },
 {
 name = _part.knvR;
@@ -3404,27 +3407,29 @@ name = _part.knvR;
 };
 components = (
 {
+alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 930, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 930, 0}";
 },
 {
+alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 428, 0}";
 piece = {
 Width = 347.836;
 };
+transform = "{1, 0, 0, 1, 428, 0}";
 },
 {
+alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 532, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 532, 0}";
 },
 {
+alignment = -1;
 name = _part.knvR;
 }
 );
@@ -3442,24 +3447,23 @@ category = Letter;
 {
 color = 3;
 glyphname = knvRR;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 438, 0}";
 piece = {
 Width = 204;
 };
+transform = "{1, 0, 0, 1, 438, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 513, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 513, 0}";
 },
 {
 name = _part.knvR;
@@ -3472,25 +3476,28 @@ transform = "{1, 0, 0, 1, 888, 0}";
 };
 components = (
 {
+alignment = -1;
 name = _part.knvR;
 },
 {
+alignment = -1;
 name = _part.knmUU;
 transform = "{1, 0, 0, 1, 878, 0}";
 },
 {
+alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 428, 0}";
 piece = {
 Width = 347.836;
 };
+transform = "{1, 0, 0, 1, 428, 0}";
 },
 {
+alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 532, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 532, 0}";
 }
 );
 guideLines = (
@@ -5988,7 +5995,7 @@ subCategory = Spacing;
 {
 color = 3;
 glyphname = knmUU;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
@@ -6058,6 +6065,7 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = _part.knmUU;
 transform = "{1, 0, 0, 1, -11, 0}";
 }
@@ -7540,7 +7548,7 @@ unicode = 0CE3;
 {
 color = 3;
 glyphname = knmE;
-lastChange = "2016-06-08 19:34:41 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
@@ -7576,9 +7584,9 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = _part.knmE;
 piece = {
-Width = 350;
 };
 }
 );
@@ -7782,7 +7790,7 @@ subCategory = Spacing;
 {
 color = 1;
 glyphname = knmAI;
-lastChange = "2016-05-06 20:28:43 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 anchors = (
@@ -7827,6 +7835,7 @@ options = 4;
 {
 horizontal = 1;
 place = "{-38, 17}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -7977,9 +7986,11 @@ transform = "{1, 0, 0, 1, 239, 0}";
 };
 components = (
 {
+alignment = -1;
 name = knmE;
 },
 {
+alignment = -1;
 name = knAIlengthmark;
 transform = "{1, 0, 0, 1, 239, 0}";
 }
@@ -8029,6 +8040,7 @@ type = TTStem;
 {
 horizontal = 1;
 place = "{-38, 17}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -8441,10 +8453,9 @@ transform = "{1, 0, 0, 1, -51, 0}";
 {
 alignment = -1;
 name = _part.knmE;
-transform = "{1, 0, 0, 1, -524, 0}";
 piece = {
-Width = 350;
 };
+transform = "{1, 0, 0, 1, -524, 0}";
 }
 );
 };
@@ -8776,7 +8787,6 @@ components = (
 {
 name = _part.knmAU;
 piece = {
-Weight = 214;
 };
 }
 );
@@ -9708,10 +9718,10 @@ name = knGHA.base;
 {
 alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 492, 0}";
 piece = {
-Width = 280.312;
+Width = 280.31201;
 };
+transform = "{1, 0, 0, 1, 492, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -9863,17 +9873,17 @@ unicode = 0C99;
 {
 color = 3;
 glyphname = knCA;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 640, 0}";
 piece = {
 Width = 381;
 };
+transform = "{1, 0, 0, 1, 640, 0}";
 },
 {
 name = knCA.base;
@@ -9888,13 +9898,15 @@ position = "{976, -78}";
 };
 components = (
 {
+alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 640, 0}";
 piece = {
 Width = 435;
 };
+transform = "{1, 0, 0, 1, 640, 0}";
 },
 {
+alignment = -1;
 name = knCA.base;
 }
 );
@@ -9928,10 +9940,10 @@ name = knCHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 641, 0}";
 piece = {
 Width = 410;
 };
+transform = "{1, 0, 0, 1, 641, 0}";
 },
 {
 name = _part.teardrop;
@@ -10008,8 +10020,8 @@ components = (
 name = knJHA.base;
 piece = {
 Group = 1;
-"Terminal Height" = 0.309187;
-Width = -0.104903;
+"Terminal Height" = 0.30919;
+Width = -0.1049;
 };
 },
 {
@@ -10024,8 +10036,8 @@ components = (
 name = knJHA.base;
 piece = {
 Group = 1;
-"Terminal Height" = 0.309187;
-Width = -0.104903;
+"Terminal Height" = 0.30919;
+Width = -0.1049;
 };
 },
 {
@@ -10641,10 +10653,10 @@ nodes = (
 components = (
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 668, 0}";
 piece = {
 Width = 339;
 };
+transform = "{1, 0, 0, 1, 668, 0}";
 },
 {
 name = knCHA.base;
@@ -11433,10 +11445,10 @@ name = knTA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 355, 0}";
 piece = {
-Width = 199.904;
+Width = 199.90401;
 };
+transform = "{1, 0, 0, 1, 355, 0}";
 }
 );
 guideLines = (
@@ -11567,10 +11579,10 @@ name = knTHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 585, 0}";
 piece = {
 Width = 288;
 };
+transform = "{1, 0, 0, 1, 585, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -11672,10 +11684,10 @@ name = knDA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 585, 0}";
 piece = {
 Width = 300;
 };
+transform = "{1, 0, 0, 1, 585, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -11783,10 +11795,10 @@ name = knDHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 585, 0}";
 piece = {
 Width = 288;
 };
+transform = "{1, 0, 0, 1, 585, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -11811,10 +11823,10 @@ transform = "{1, 0, 0, 1, -176, 0}";
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 409, 0}";
 piece = {
 Width = 300;
 };
+transform = "{1, 0, 0, 1, 409, 0}";
 }
 );
 };
@@ -11824,10 +11836,10 @@ name = knNA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 410, 0}";
 piece = {
 Width = 250;
 };
+transform = "{1, 0, 0, 1, 410, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -11841,7 +11853,7 @@ unicode = 0CA8;
 {
 color = 3;
 glyphname = knPA;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -11850,10 +11862,10 @@ name = knPA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 494, 0}";
 piece = {
-Width = 289.89;
+Width = 289.89001;
 };
+transform = "{1, 0, 0, 1, 494, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -11969,10 +11981,10 @@ name = knPHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 494, 0}";
 piece = {
-Width = 280.312;
+Width = 280.31201;
 };
+transform = "{1, 0, 0, 1, 494, 0}";
 }
 );
 guideLines = (
@@ -12098,10 +12110,10 @@ name = knBHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 559, 0}";
 piece = {
 Width = 361;
 };
+transform = "{1, 0, 0, 1, 559, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -12115,7 +12127,7 @@ unicode = 0CAD;
 {
 color = 3;
 glyphname = knMA;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:03:01 +0000";
 layers = (
 {
 anchors = (
@@ -12240,10 +12252,9 @@ name = knVA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1031, 0}";
 piece = {
-"Terminal Height" = 170;
 };
+transform = "{1, 0, 0, 1, 1031, 0}";
 }
 );
 guideLines = (
@@ -12282,10 +12293,10 @@ name = knYA.base;
 {
 alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 679, 0}";
 piece = {
-Width = 343.432;
+Width = 343.43201;
 };
+transform = "{1, 0, 0, 1, 679, 0}";
 }
 );
 guideLines = (
@@ -12414,18 +12425,20 @@ unicode = 0CB2;
 {
 color = 3;
 glyphname = knVA;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 522, 0}";
 piece = {
-Width = 280.312;
+Width = 280.31201;
 };
+transform = "{1, 0, 0, 1, 522, 0}";
 },
 {
+alignment = -1;
 name = knVA.base;
 }
 );
@@ -12451,10 +12464,10 @@ name = knSHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 389, 0}";
 piece = {
-Width = 307.036;
+Width = 307.03601;
 };
+transform = "{1, 0, 0, 1, 389, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -12507,10 +12520,10 @@ name = knSSA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 494, 0}";
 piece = {
-Width = 280.312;
+Width = 280.31201;
 };
+transform = "{1, 0, 0, 1, 494, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -12567,10 +12580,10 @@ name = knHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 567, 0}";
 piece = {
 Width = 321.241;
 };
+transform = "{1, 0, 0, 1, 567, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -12722,10 +12735,10 @@ name = knLLA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 349, 0}";
 piece = {
 Width = 287;
 };
+transform = "{1, 0, 0, 1, 349, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -13123,7 +13136,7 @@ subCategory = Spacing;
 {
 color = 3;
 glyphname = knVirama;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
@@ -13171,6 +13184,7 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = _part.knVirama;
 }
 );
@@ -21908,14 +21922,16 @@ rightKerningGroup = knDAc2;
 {
 color = 3;
 glyphname = knDDHAc2;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = knDDAc2;
 },
 {
+alignment = -1;
 name = _part.teardrop_c2;
 transform = "{1, 0, 0, 1, -81, 0}";
 }
@@ -27654,10 +27670,10 @@ name = knKHA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 704, 0}";
 piece = {
 Width = 315;
 };
+transform = "{1, 0, 0, 1, 704, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -27879,10 +27895,10 @@ name = knGHA.base;
 {
 alignment = -1;
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 956, 0}";
 piece = {
 Width = 583;
 };
+transform = "{1, 0, 0, 1, 956, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -27907,10 +27923,10 @@ name = knNGA;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 830, 0}";
 piece = {
 Width = 194;
 };
+transform = "{1, 0, 0, 1, 830, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -27935,10 +27951,10 @@ name = knCA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 844, 0}";
 piece = {
 Width = 408;
 };
+transform = "{1, 0, 0, 1, 844, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -27963,10 +27979,10 @@ name = knCHA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 912, 0}";
 piece = {
 Width = 450;
 };
+transform = "{1, 0, 0, 1, 912, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -28020,10 +28036,10 @@ name = knO;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 828, 0}";
 piece = {
 Width = 200;
 };
+transform = "{1, 0, 0, 1, 828, 0}";
 }
 );
 hints = (
@@ -28104,10 +28120,10 @@ name = knO;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 828, 0}";
 piece = {
 Width = 200;
 };
+transform = "{1, 0, 0, 1, 828, 0}";
 }
 );
 hints = (
@@ -28188,10 +28204,10 @@ name = knO;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 828, 0}";
 piece = {
 Width = 200;
 };
+transform = "{1, 0, 0, 1, 828, 0}";
 }
 );
 hints = (
@@ -28408,10 +28424,10 @@ nodes = (
 components = (
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 1363, 0}";
 piece = {
 Width = 348.436;
 };
+transform = "{1, 0, 0, 1, 1363, 0}";
 },
 {
 alignment = -1;
@@ -28449,10 +28465,10 @@ name = knNYA;
 {
 alignment = -1;
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 1170, 0}";
 piece = {
 Width = 155;
 };
+transform = "{1, 0, 0, 1, 1170, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -28633,10 +28649,10 @@ name = knTTA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 912, 0}";
 piece = {
 Width = 450;
 };
+transform = "{1, 0, 0, 1, 912, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -28686,10 +28702,10 @@ name = knDDA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 855, 0}";
 piece = {
 Width = 234;
 };
+transform = "{1, 0, 0, 1, 855, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -28714,10 +28730,10 @@ name = knDDHA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 855, 0}";
 piece = {
 Width = 234;
 };
+transform = "{1, 0, 0, 1, 855, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -28742,10 +28758,10 @@ name = knNNA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 901, 0}";
 piece = {
 Width = 213;
 };
+transform = "{1, 0, 0, 1, 901, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -28977,10 +28993,10 @@ name = knPA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 765, 0}";
 piece = {
-Width = 337.786;
+Width = 337.78601;
 };
+transform = "{1, 0, 0, 1, 765, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29005,10 +29021,10 @@ name = knPHA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 765, 0}";
 piece = {
-Width = 337.786;
+Width = 337.78601;
 };
+transform = "{1, 0, 0, 1, 765, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29033,10 +29049,10 @@ name = knBA;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 830, 0}";
 piece = {
 Width = 401;
 };
+transform = "{1, 0, 0, 1, 830, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29061,10 +29077,10 @@ name = knBHA.base;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 830, 0}";
 piece = {
 Width = 401;
 };
+transform = "{1, 0, 0, 1, 830, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29227,18 +29243,17 @@ name = knVA;
 {
 alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 1036, 0}";
 piece = {
-"Terminal Height" = 170;
 };
+transform = "{1, 0, 0, 1, 1036, 0}";
 },
 {
 alignment = -1;
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 1203, 0}";
 piece = {
 Width = 348;
 };
+transform = "{1, 0, 0, 1, 1203, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29275,33 +29290,31 @@ components = (
 {
 alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 1181, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 1181, 0}";
 },
 {
 alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 783, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 783, 0}";
 },
 {
 alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 679, 0}";
 piece = {
-Width = 343.432;
+Width = 343.43201;
 };
+transform = "{1, 0, 0, 1, 679, 0}";
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 1348, 0}";
 piece = {
 Width = 348;
 };
+transform = "{1, 0, 0, 1, 1348, 0}";
 }
 );
 paths = (
@@ -29350,10 +29363,10 @@ nodes = (
 components = (
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 1348, 0}";
 piece = {
 Width = 348;
 };
+transform = "{1, 0, 0, 1, 1348, 0}";
 },
 {
 alignment = -1;
@@ -29532,10 +29545,10 @@ name = knLA;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 797, 0}";
 piece = {
 Width = 327;
 };
+transform = "{1, 0, 0, 1, 797, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29685,10 +29698,10 @@ name = knRRA;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 921, 0}";
 piece = {
 Width = 192;
 };
+transform = "{1, 0, 0, 1, 921, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29714,10 +29727,10 @@ name = knLLA.base;
 {
 alignment = -1;
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 522, 0}";
 piece = {
 Width = 262;
 };
+transform = "{1, 0, 0, 1, 522, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -29742,10 +29755,10 @@ name = knLLLA;
 },
 {
 name = _part.knmAA;
-transform = "{1, 0, 0, 1, 921, 0}";
 piece = {
 Width = 192;
 };
+transform = "{1, 0, 0, 1, 921, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -34320,7 +34333,7 @@ rightMetricsKey = knDA.base;
 {
 color = 3;
 glyphname = knDDHI;
-lastChange = "2016-04-14 22:07:54 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
@@ -34444,9 +34457,11 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = knDDI;
 },
 {
+alignment = -1;
 name = _part.teardrop;
 transform = "{1, 0, 0, 1, 412, 0}";
 }
@@ -36714,10 +36729,9 @@ background = {
 components = (
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1016, 0}";
 piece = {
-"Terminal Height" = 170;
 };
+transform = "{1, 0, 0, 1, 1016, 0}";
 },
 {
 name = knVI;
@@ -36963,10 +36977,9 @@ nodes = (
 components = (
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1207, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 1207, 0}";
 }
 );
 guideLines = (
@@ -37198,10 +37211,9 @@ nodes = (
 components = (
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1215, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 1215, 0}";
 }
 );
 layerId = "325EDDBF-6133-498D-8802-66B7C78A99DE";
@@ -41216,10 +41228,9 @@ transform = "{1, 0, 0, 1, 15, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 779, 0}";
 piece = {
-"Terminal Height" = 140;
 };
+transform = "{1, 0, 0, 1, 779, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41294,10 +41305,10 @@ name = knGHA.base;
 {
 alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 491, 0}";
 piece = {
-Width = 280.312;
+Width = 280.31201;
 };
+transform = "{1, 0, 0, 1, 491, 0}";
 }
 );
 hints = (
@@ -41362,10 +41373,9 @@ name = knNGA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1071, 0}";
 piece = {
-"Terminal Height" = 167;
 };
+transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41380,7 +41390,7 @@ rightMetricsKey = _part.knmU;
 {
 color = 3;
 glyphname = knCU;
-lastChange = "2016-04-14 22:07:54 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 components = (
@@ -41389,11 +41399,11 @@ alignment = -1;
 name = knCA;
 },
 {
+alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1071, 0}";
 piece = {
-"Terminal Height" = 167;
 };
+transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41418,10 +41428,9 @@ name = knCHA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1149, 0}";
 piece = {
-"Terminal Height" = 179.862;
 };
+transform = "{1, 0, 0, 1, 1149, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41446,10 +41455,9 @@ name = knJA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1071, 0}";
 piece = {
-"Terminal Height" = 167;
 };
+transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41474,10 +41482,9 @@ name = knJHA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1593, 0}";
 piece = {
-"Terminal Height" = 200;
 };
+transform = "{1, 0, 0, 1, 1593, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41643,10 +41650,9 @@ name = knTTA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1148, 0}";
 piece = {
-"Terminal Height" = 182.737;
 };
+transform = "{1, 0, 0, 1, 1148, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41671,10 +41677,9 @@ name = knTTHA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 798, 0}";
 piece = {
-"Terminal Height" = 188.236;
 };
+transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41699,10 +41704,9 @@ name = knDDA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1105, 0}";
 piece = {
-"Terminal Height" = 137;
 };
+transform = "{1, 0, 0, 1, 1105, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41727,10 +41731,9 @@ name = knDDHA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1105, 0}";
 piece = {
-"Terminal Height" = 137;
 };
+transform = "{1, 0, 0, 1, 1105, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41755,10 +41758,9 @@ name = knNNA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1136, 0}";
 piece = {
-"Terminal Height" = 188.873;
 };
+transform = "{1, 0, 0, 1, 1136, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41783,10 +41785,9 @@ name = knTA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 865, 0}";
 piece = {
-"Terminal Height" = 149;
 };
+transform = "{1, 0, 0, 1, 865, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41811,10 +41812,10 @@ name = knDA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 585, 0}";
 piece = {
 Width = 288;
 };
+transform = "{1, 0, 0, 1, 585, 0}";
 },
 {
 name = _part.teardrop;
@@ -41826,10 +41827,9 @@ transform = "{1, 0, 0, 1, 425, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1100, 0}";
 piece = {
-"Terminal Height" = 155;
 };
+transform = "{1, 0, 0, 1, 1100, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41854,10 +41854,9 @@ name = knDA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1100, 0}";
 piece = {
-"Terminal Height" = 155;
 };
+transform = "{1, 0, 0, 1, 1100, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41882,10 +41881,9 @@ name = knDHA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1100, 0}";
 piece = {
-"Terminal Height" = 155;
 };
+transform = "{1, 0, 0, 1, 1100, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -41910,10 +41908,9 @@ name = knNA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 927, 0}";
 piece = {
-"Terminal Height" = 155;
 };
+transform = "{1, 0, 0, 1, 927, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42173,15 +42170,17 @@ rightMetricsKey = "=_part.knmU-10";
 {
 color = 3;
 glyphname = knPHU;
-lastChange = "2016-04-14 22:07:54 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = _part.teardrop;
 transform = "{1, 0, 0, 1, 354, 0}";
 },
 {
+alignment = -1;
 name = knPU;
 }
 );
@@ -42207,10 +42206,9 @@ name = knBA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1071, 0}";
 piece = {
-"Terminal Height" = 167;
 };
+transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42235,17 +42233,16 @@ name = knBHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 559, 0}";
 piece = {
 Width = 361;
 };
+transform = "{1, 0, 0, 1, 559, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1071, 0}";
 piece = {
-"Terminal Height" = 165;
 };
+transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42260,7 +42257,7 @@ rightMetricsKey = _part.knmU;
 {
 color = 3;
 glyphname = knMU;
-lastChange = "2016-04-14 22:07:54 +0000";
+lastChange = "2022-01-27 14:03:22 +0000";
 layers = (
 {
 components = (
@@ -42295,10 +42292,9 @@ name = knYA.base;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1579, 0}";
 piece = {
-"Terminal Height" = 195;
 };
+transform = "{1, 0, 0, 1, 1579, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42323,10 +42319,9 @@ name = knRA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 798, 0}";
 piece = {
-"Terminal Height" = 192;
 };
+transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42351,10 +42346,9 @@ name = knLA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 994, 0}";
 piece = {
-"Terminal Height" = 207;
 };
+transform = "{1, 0, 0, 1, 994, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42369,7 +42363,7 @@ rightMetricsKey = _part.knmU;
 {
 color = 3;
 glyphname = knVU;
-lastChange = "2016-05-06 20:28:43 +0000";
+lastChange = "2022-01-27 14:03:22 +0000";
 layers = (
 {
 background = {
@@ -42469,10 +42463,9 @@ name = knSHA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 873, 0}";
 piece = {
-"Terminal Height" = 191.39;
 };
+transform = "{1, 0, 0, 1, 873, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42497,10 +42490,9 @@ name = knSSA;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1015, 0}";
 piece = {
-"Terminal Height" = 138;
 };
+transform = "{1, 0, 0, 1, 1015, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42529,10 +42521,9 @@ transform = "{1, 0, 0, 1, 436, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 955, 0}";
 piece = {
-"Terminal Height" = 149.156;
 };
+transform = "{1, 0, 0, 1, 955, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -42583,10 +42574,9 @@ name = knRRA.base;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1145, 0}";
 piece = {
-"Terminal Height" = 205;
 };
+transform = "{1, 0, 0, 1, 1145, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -43063,10 +43053,9 @@ name = knLLLA.base;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1145, 0}";
 piece = {
-"Terminal Height" = 205;
 };
+transform = "{1, 0, 0, 1, 1145, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -43091,10 +43080,9 @@ name = knKA;
 },
 {
 name = _part.knmUU;
-transform = "{1, 0, 0, 1, 712, 0}";
 piece = {
-Height = 127.539;
 };
+transform = "{1, 0, 0, 1, 712, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -43308,7 +43296,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knCUU;
-lastChange = "2016-04-14 22:08:30 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 components = (
@@ -43317,6 +43305,7 @@ alignment = -1;
 name = knCA;
 },
 {
+alignment = -1;
 name = _part.knmUU;
 transform = "{1, 0, 0, 1, 1019, 0}";
 }
@@ -44669,7 +44658,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knMUU;
-lastChange = "2016-04-14 22:08:30 +0000";
+lastChange = "2022-01-27 14:03:18 +0000";
 layers = (
 {
 components = (
@@ -44712,24 +44701,22 @@ transform = "{1, 0, 0, 1, 2, 0}";
 {
 alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1198, 0}";
 piece = {
-"Terminal Height" = 200;
 };
+transform = "{1, 0, 0, 1, 1198, 0}";
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 800, 0}";
 piece = {
-"Terminal Height" = 200;
 };
+transform = "{1, 0, 0, 1, 800, 0}";
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 312, 0}";
 piece = {
-Width = 362.734;
+Width = 362.73401;
 };
+transform = "{1, 0, 0, 1, 312, 0}";
 },
 {
 alignment = -1;
@@ -44819,7 +44806,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knVUU;
-lastChange = "2016-05-06 20:28:43 +0000";
+lastChange = "2022-01-27 14:03:22 +0000";
 layers = (
 {
 background = {
@@ -45646,11 +45633,9 @@ name = knKA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 639, 0}";
 piece = {
-"Arch width" = 375;
-Width = 279.002;
 };
+transform = "{1, 0, 0, 1, 639, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -45672,11 +45657,10 @@ name = knKHA;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 707, 0}";
 piece = {
-"Arch width" = 344;
 "Headline Width" = 291;
 };
+transform = "{1, 0, 0, 1, 707, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -45698,10 +45682,9 @@ name = knGA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 595, 0}";
 piece = {
-"Arch width" = 343;
 };
+transform = "{1, 0, 0, 1, 595, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -45895,11 +45878,10 @@ name = knGHA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 1007, 0}";
 piece = {
-"Arch width" = 331;
 "Headline Width" = 930;
 };
+transform = "{1, 0, 0, 1, 1007, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -46481,11 +46463,10 @@ name = knCA.base;
 {
 alignment = -1;
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 914, 0}";
 piece = {
-"Arch width" = 318;
 "Headline Width" = 498;
 };
+transform = "{1, 0, 0, 1, 914, 0}";
 }
 );
 guideLines = (
@@ -46584,11 +46565,10 @@ name = knCA.base;
 {
 alignment = -1;
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 914, 0}";
 piece = {
-"Arch width" = 318;
 "Headline Width" = 498;
 };
+transform = "{1, 0, 0, 1, 914, 0}";
 }
 );
 guideLines = (
@@ -46770,11 +46750,10 @@ name = knCA.base;
 {
 alignment = -1;
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 914, 0}";
 piece = {
-"Arch width" = 318;
 "Headline Width" = 498;
 };
+transform = "{1, 0, 0, 1, 914, 0}";
 }
 );
 guideLines = (
@@ -46805,12 +46784,10 @@ name = knCHA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 915, 0}";
 piece = {
-"Arch width" = 268;
 "Headline Width" = 464;
-Width = 351.683;
 };
+transform = "{1, 0, 0, 1, 915, 0}";
 },
 {
 name = _part.teardrop;
@@ -46865,11 +46842,10 @@ name = knO;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 797, 0}";
 piece = {
-"Arch width" = 286;
 "Headline Width" = 374;
 };
+transform = "{1, 0, 0, 1, 797, 0}";
 }
 );
 hints = (
@@ -47061,10 +47037,9 @@ name = knJHA.base;
 {
 alignment = -1;
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 584, 0}";
 piece = {
-"Arch width" = 335;
 };
+transform = "{1, 0, 0, 1, 584, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -47141,11 +47116,10 @@ name = knTTA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 915, 0}";
 piece = {
-"Arch width" = 261;
 "Headline Width" = 463.47;
 };
+transform = "{1, 0, 0, 1, 915, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -47454,11 +47428,10 @@ nodes = (
 components = (
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 752, 0}";
 piece = {
-"Arch width" = 421.387;
 "Headline Width" = 200;
 };
+transform = "{1, 0, 0, 1, 752, 0}";
 }
 );
 hints = (
@@ -47668,10 +47641,9 @@ name = knTHA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 859, 0}";
 piece = {
-Width = 346.957;
 };
+transform = "{1, 0, 0, 1, 859, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -47759,11 +47731,10 @@ name = knPA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 768, 0}";
 piece = {
-"Headline Width" = 278.719;
-Width = 321.14;
+"Headline Width" = 278.71899;
 };
+transform = "{1, 0, 0, 1, 768, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -47896,11 +47867,10 @@ name = knPHA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 768, 0}";
 piece = {
-"Headline Width" = 324.421;
-Width = 347.761;
+"Headline Width" = 324.42099;
 };
+transform = "{1, 0, 0, 1, 768, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -47922,11 +47892,10 @@ name = knBA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 833, 0}";
 piece = {
 "Headline Width" = 525;
-Width = 522;
 };
+transform = "{1, 0, 0, 1, 833, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48054,11 +48023,10 @@ name = knBHA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 833, 0}";
 piece = {
 "Headline Width" = 525;
-Width = 522;
 };
+transform = "{1, 0, 0, 1, 833, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48081,17 +48049,16 @@ name = knVA.base;
 },
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1031, 0}";
 piece = {
-"Terminal Height" = 170;
 };
+transform = "{1, 0, 0, 1, 1031, 0}";
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 791, 0}";
 piece = {
 "Headline Width" = 322.332;
 };
+transform = "{1, 0, 0, 1, 791, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48247,11 +48214,10 @@ name = knYA.base;
 {
 alignment = -1;
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 956, 0}";
 piece = {
-"Headline Width" = 376.101;
-Width = 343.432;
+"Headline Width" = 376.10101;
 };
+transform = "{1, 0, 0, 1, 956, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48275,10 +48241,9 @@ name = knRA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 584, 0}";
 piece = {
-Width = 310.084;
 };
+transform = "{1, 0, 0, 1, 584, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48300,11 +48265,10 @@ name = knLA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 800, 0}";
 piece = {
 "Headline Width" = 295;
-Width = 267;
 };
+transform = "{1, 0, 0, 1, 800, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48326,10 +48290,10 @@ name = knVA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 791, 0}";
 piece = {
-"Headline Width" = 303.105;
+"Headline Width" = 303.10501;
 };
+transform = "{1, 0, 0, 1, 791, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48373,10 +48337,10 @@ name = knSSA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 768, 0}";
 piece = {
-"Headline Width" = 327.226;
+"Headline Width" = 327.22601;
 };
+transform = "{1, 0, 0, 1, 768, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48420,10 +48384,10 @@ name = knHA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 841, 0}";
 piece = {
 "Headline Width" = 317.491;
 };
+transform = "{1, 0, 0, 1, 841, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48669,10 +48633,10 @@ name = knLLA.base;
 },
 {
 name = _part.knmE;
-transform = "{1, 0, 0, 1, 623, 0}";
 piece = {
 "Headline Width" = 323;
 };
+transform = "{1, 0, 0, 1, 623, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -48746,7 +48710,7 @@ rightMetricsKey = _part.knmE.alt1;
 {
 color = 3;
 glyphname = knKO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:27 +0000";
 layers = (
 {
 components = (
@@ -48778,7 +48742,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knKHO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50279,7 +50243,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knNNO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50311,7 +50275,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knTO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50343,7 +50307,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knTHO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50375,7 +50339,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knDO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50407,7 +50371,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knDHO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50439,7 +50403,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knNO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -50641,7 +50605,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knBHO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -51006,18 +50970,17 @@ nodes = (
 components = (
 {
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 786, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 786, 0}";
 },
 {
 name = knmE;
-transform = "{1, 0, 0, 1, 956, 0}";
 piece = {
 Group = 1;
 "Headline Width" = 217;
 };
+transform = "{1, 0, 0, 1, 956, 0}";
 },
 {
 name = _part.knmUU;
@@ -51255,7 +51218,7 @@ rightMetricsKey = _part.knmUU_p;
 {
 color = 3;
 glyphname = knSHO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -51351,7 +51314,7 @@ rightMetricsKey = _part.knmUU;
 {
 color = 3;
 glyphname = knHO;
-lastChange = "2016-04-14 22:12:02 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -51923,10 +51886,10 @@ name = knKA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 650, 0}";
 piece = {
 Width = 200;
 };
+transform = "{1, 0, 0, 1, 650, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -51951,10 +51914,10 @@ name = knKHA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 718, 0}";
 piece = {
 Width = 276;
 };
+transform = "{1, 0, 0, 1, 718, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -51979,10 +51942,10 @@ name = knGA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 606, 0}";
 piece = {
 Width = 205;
 };
+transform = "{1, 0, 0, 1, 606, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52007,10 +51970,10 @@ name = knGHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1018, 0}";
 piece = {
 Width = 564;
 };
+transform = "{1, 0, 0, 1, 1018, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52035,10 +51998,10 @@ name = knNGA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 844, 0}";
 piece = {
 Width = 157;
 };
+transform = "{1, 0, 0, 1, 844, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52062,10 +52025,10 @@ name = knO;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 925, 0}";
 piece = {
 Width = 436;
 };
+transform = "{1, 0, 0, 1, 925, 0}";
 }
 );
 hints = (
@@ -52141,10 +52104,10 @@ name = knCHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 926, 0}";
 piece = {
 Width = 411;
 };
+transform = "{1, 0, 0, 1, 926, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52168,10 +52131,10 @@ name = knO;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 847, 0}";
 piece = {
 Width = 358;
 };
+transform = "{1, 0, 0, 1, 847, 0}";
 }
 );
 hints = (
@@ -52239,18 +52202,16 @@ transform = "{1, 0, 0, 1, 959, 0}";
 {
 alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 1196, 0}";
 piece = {
-"Terminal Height" = 200.618;
 };
+transform = "{1, 0, 0, 1, 1196, 0}";
 },
 {
 alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 798, 0}";
 piece = {
-"Terminal Height" = 200.618;
 };
+transform = "{1, 0, 0, 1, 798, 0}";
 },
 {
 alignment = -1;
@@ -52259,10 +52220,10 @@ transform = "{1, 0, 0, 1, 308, 0}";
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1377, 0}";
 piece = {
 Width = 309;
 };
+transform = "{1, 0, 0, 1, 1377, 0}";
 }
 );
 paths = (
@@ -52277,10 +52238,10 @@ nodes = (
 components = (
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1377, 0}";
 piece = {
 Width = 309;
 };
+transform = "{1, 0, 0, 1, 1377, 0}";
 },
 {
 alignment = -1;
@@ -52323,10 +52284,10 @@ name = knNYA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1214, -2}";
 piece = {
 Width = 145;
 };
+transform = "{1, 0, 0, 1, 1214, -2}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52351,10 +52312,10 @@ name = knTTA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 926, 0}";
 piece = {
 Width = 411;
 };
+transform = "{1, 0, 0, 1, 926, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52400,10 +52361,10 @@ name = knTTHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 595, 0}";
 piece = {
 Width = 200;
 };
+transform = "{1, 0, 0, 1, 595, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52449,10 +52410,10 @@ name = knDDA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 869, 0}";
 piece = {
 Width = 205;
 };
+transform = "{1, 0, 0, 1, 869, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52477,10 +52438,10 @@ name = knDDHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 869, 0}";
 piece = {
 Width = 205;
 };
+transform = "{1, 0, 0, 1, 869, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52505,10 +52466,10 @@ name = knNNA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 915, 0}";
 piece = {
 Width = 170;
 };
+transform = "{1, 0, 0, 1, 915, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52523,7 +52484,7 @@ rightMetricsKey = _part.knmAU;
 {
 color = 3;
 glyphname = knTAU;
-lastChange = "2016-04-14 22:58:40 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
@@ -52549,13 +52510,15 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 620, 0}";
 piece = {
 Width = 234.951;
 };
+transform = "{1, 0, 0, 1, 620, 0}";
 },
 {
+alignment = -1;
 name = knTA.base;
 }
 );
@@ -52581,10 +52544,10 @@ name = knTHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 870, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 870, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52630,10 +52593,10 @@ name = knDA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 870, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 870, 0}";
 }
 );
 guideLines = (
@@ -52664,10 +52627,10 @@ name = knDHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 870, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 870, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52713,10 +52676,10 @@ name = knNA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 695, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 695, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52762,10 +52725,10 @@ name = knPA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 779, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 779, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52811,10 +52774,10 @@ name = knPHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 779, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 779, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52926,10 +52889,10 @@ name = knBA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 844, 0}";
 piece = {
 Width = 362;
 };
+transform = "{1, 0, 0, 1, 844, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52954,10 +52917,10 @@ name = knBHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 844, 0}";
 piece = {
 Width = 362;
 };
+transform = "{1, 0, 0, 1, 844, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -52972,7 +52935,7 @@ rightMetricsKey = _part.knmAU;
 {
 color = 3;
 glyphname = knMAU;
-lastChange = "2016-04-14 22:58:40 +0000";
+lastChange = "2022-01-27 14:03:22 +0000";
 layers = (
 {
 background = {
@@ -52983,10 +52946,10 @@ name = knMA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1212, 0}";
 piece = {
 Width = 309;
 };
+transform = "{1, 0, 0, 1, 1212, 0}";
 }
 );
 paths = (
@@ -53006,17 +52969,16 @@ name = knVA;
 {
 alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 1031, 0}";
 piece = {
-"Terminal Height" = 170;
 };
+transform = "{1, 0, 0, 1, 1031, 0}";
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1212, 0}";
 piece = {
 Width = 309;
 };
+transform = "{1, 0, 0, 1, 1212, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53051,10 +53013,10 @@ transform = "{1, 0, 0, 1, -2, 0}";
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1360, 0}";
 piece = {
 Width = 309;
 };
+transform = "{1, 0, 0, 1, 1360, 0}";
 }
 );
 paths = (
@@ -53069,10 +53031,10 @@ nodes = (
 components = (
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 1360, 0}";
 piece = {
 Width = 309;
 };
+transform = "{1, 0, 0, 1, 1360, 0}";
 },
 {
 alignment = -1;
@@ -53130,10 +53092,10 @@ name = knRA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 595, 0}";
 piece = {
-Width = 191.316;
+Width = 191.31599;
 };
+transform = "{1, 0, 0, 1, 595, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53179,11 +53141,10 @@ name = knLA;
 {
 alignment = -1;
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 807, 0}";
 piece = {
-Weight = 115;
 Width = 284;
 };
+transform = "{1, 0, 0, 1, 807, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53208,10 +53169,10 @@ name = knVA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 802, 0}";
 piece = {
 Width = 305;
 };
+transform = "{1, 0, 0, 1, 802, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53236,10 +53197,10 @@ name = knSHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 674, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 674, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53264,10 +53225,10 @@ name = knSSA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 779, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 779, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53313,10 +53274,10 @@ name = knSA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 721, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 721, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53341,10 +53302,10 @@ name = knHA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 852, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 852, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53439,10 +53400,10 @@ name = knRRA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 935, 0}";
 piece = {
 Width = 154;
 };
+transform = "{1, 0, 0, 1, 935, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53488,10 +53449,10 @@ name = knLLA.base;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 634, 0}";
 piece = {
 Width = 288;
 };
+transform = "{1, 0, 0, 1, 634, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53516,10 +53477,10 @@ name = knLLLA;
 },
 {
 name = _part.knmAU;
-transform = "{1, 0, 0, 1, 935, 0}";
 piece = {
 Width = 153;
 };
+transform = "{1, 0, 0, 1, 935, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53544,10 +53505,10 @@ name = knKA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 651, 0}";
 piece = {
 Width = 400;
 };
+transform = "{1, 0, 0, 1, 651, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53682,10 +53643,10 @@ name = knKHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 716, 0}";
 piece = {
 Width = 128;
 };
+transform = "{1, 0, 0, 1, 716, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53735,10 +53696,10 @@ name = knGHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1033, 0}";
 piece = {
 Width = 410;
 };
+transform = "{1, 0, 0, 1, 1033, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53763,10 +53724,10 @@ name = knNGA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 822, 0}";
 piece = {
 Width = -6;
 };
+transform = "{1, 0, 0, 1, 822, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -53781,10 +53742,10 @@ name = knNGA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 822, 0}";
 piece = {
 Width = -17;
 };
+transform = "{1, 0, 0, 1, 822, 0}";
 }
 );
 layerId = "A50633B9-0D6B-46C5-B2FD-43CC3F907081";
@@ -53810,10 +53771,10 @@ name = knBHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 557, 0}";
 piece = {
 Width = 319;
 };
+transform = "{1, 0, 0, 1, 557, 0}";
 }
 );
 };
@@ -53824,10 +53785,10 @@ name = knCA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 917, 0}";
 piece = {
-Width = 281.86;
+Width = 281.85999;
 };
+transform = "{1, 0, 0, 1, 917, 0}";
 }
 );
 hints = (
@@ -53864,10 +53825,10 @@ name = knBHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 557, 0}";
 piece = {
 Width = 319;
 };
+transform = "{1, 0, 0, 1, 557, 0}";
 }
 );
 };
@@ -53878,10 +53839,10 @@ name = knCA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 917, 0}";
 piece = {
-Width = 281.86;
+Width = 281.85999;
 };
+transform = "{1, 0, 0, 1, 917, 0}";
 }
 );
 layerId = "EC31ACC4-0220-47A7-8966-A2BFACE008C7";
@@ -53945,10 +53906,10 @@ name = knCHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 907, 0}";
 piece = {
 Width = 246;
 };
+transform = "{1, 0, 0, 1, 907, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54001,10 +53962,10 @@ name = knO;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 817, 0}";
 piece = {
 Width = -10;
 };
+transform = "{1, 0, 0, 1, 817, 0}";
 }
 );
 hints = (
@@ -54067,10 +54028,10 @@ name = knJHA;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1388, 0}";
 piece = {
 Width = 219;
 };
+transform = "{1, 0, 0, 1, 1388, 0}";
 }
 );
 };
@@ -54081,10 +54042,10 @@ name = knJHA.alt1;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1388, 0}";
 piece = {
 Width = 175;
 };
+transform = "{1, 0, 0, 1, 1388, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54109,10 +54070,10 @@ name = knNYA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1210, 0}";
 piece = {
 Width = -9;
 };
+transform = "{1, 0, 0, 1, 1210, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54137,10 +54098,10 @@ name = knTTA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 907, 0}";
 piece = {
 Width = 246;
 };
+transform = "{1, 0, 0, 1, 907, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54203,10 +54164,10 @@ name = knTTHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 581, 0}";
 piece = {
 Width = 275;
 };
+transform = "{1, 0, 0, 1, 581, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54770,10 +54731,10 @@ name = knTHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 856, 0}";
 piece = {
 Width = 300;
 };
+transform = "{1, 0, 0, 1, 856, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54836,10 +54797,10 @@ name = knDA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 856, 0}";
 piece = {
 Width = 300;
 };
+transform = "{1, 0, 0, 1, 856, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -54864,10 +54825,10 @@ name = knDHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 856, 0}";
 piece = {
 Width = 300;
 };
+transform = "{1, 0, 0, 1, 856, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55039,10 +55000,10 @@ name = knPHA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 755, 0}";
 piece = {
-Width = 293.562;
+Width = 293.56201;
 };
+transform = "{1, 0, 0, 1, 755, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55105,10 +55066,10 @@ name = knBA;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 820, 0}";
 piece = {
 Width = 192;
 };
+transform = "{1, 0, 0, 1, 820, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55159,18 +55120,17 @@ name = knVA;
 {
 alignment = -1;
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 1036, 0}";
 piece = {
-"Terminal Height" = 170;
 };
+transform = "{1, 0, 0, 1, 1036, 0}";
 },
 {
 alignment = -1;
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1235, 0}";
 piece = {
 Width = 182;
 };
+transform = "{1, 0, 0, 1, 1235, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55354,10 +55314,10 @@ name = knYA.alt1;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1358, 0}";
 piece = {
 Width = 159;
 };
+transform = "{1, 0, 0, 1, 1358, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55420,10 +55380,10 @@ name = knRA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 581, 0}";
 piece = {
 Width = 250;
 };
+transform = "{1, 0, 0, 1, 581, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55486,10 +55446,10 @@ name = knLA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 814, 0}";
 piece = {
 Width = 145;
 };
+transform = "{1, 0, 0, 1, 814, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55514,10 +55474,10 @@ name = knVA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 798, 0}";
 piece = {
 Width = 150;
 };
+transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55567,10 +55527,10 @@ name = knSSA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 755, 0}";
 piece = {
 Width = 200;
 };
+transform = "{1, 0, 0, 1, 755, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55633,10 +55593,10 @@ name = knSA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 712, 0}";
 piece = {
 Width = 323.853;
 };
+transform = "{1, 0, 0, 1, 712, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55686,10 +55646,10 @@ name = knRRA;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 948, 0}";
 piece = {
 Width = 25;
 };
+transform = "{1, 0, 0, 1, 948, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55735,10 +55695,10 @@ name = knLLA.base;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 650, 0}";
 piece = {
 Width = 158;
 };
+transform = "{1, 0, 0, 1, 650, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -55763,10 +55723,10 @@ name = knLLLA;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 948, 0}";
 piece = {
 Width = 20;
 };
+transform = "{1, 0, 0, 1, 948, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -57076,6 +57036,7 @@ background = {
 hints = (
 {
 place = "{1405.547, 0}";
+type = Stem;
 }
 );
 paths = (
@@ -57976,10 +57937,10 @@ name = knBHA.base;
 },
 {
 name = _part.headline;
-transform = "{1, 0, 0, 1, 557, 0}";
 piece = {
 Width = 319;
 };
+transform = "{1, 0, 0, 1, 557, 0}";
 }
 );
 guideLines = (
@@ -58373,7 +58334,7 @@ rightMetricsKey = knBA.base;
 {
 color = 3;
 glyphname = knJHA.base;
-lastChange = "2016-06-08 19:34:41 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 anchors = (
@@ -58446,26 +58407,27 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = knRA.base;
 },
 {
+alignment = -1;
 name = _part.teardrop;
 transform = "{1, 0, 0, 1, 959, 0}";
 },
 {
 alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1196, 0}";
 piece = {
-"Terminal Height" = 200;
 };
+transform = "{1, 0, 0, 1, 1196, 0}";
 },
 {
+alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 798, 0}";
 piece = {
-"Terminal Height" = 200;
 };
+transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -61878,17 +61840,15 @@ nodes = (
 components = (
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1181, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 1181, 0}";
 },
 {
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 783, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 783, 0}";
 }
 );
 guideLines = (
@@ -72940,9 +72900,11 @@ options = 4;
 },
 {
 place = "{182, 24}";
+type = Stem;
 },
 {
 place = "{795.5, 23.5}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -75969,6 +75931,7 @@ options = 4;
 },
 {
 place = "{630, 25}";
+type = Stem;
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
@@ -77370,7 +77333,7 @@ unicode = 012F;
 {
 color = 0;
 glyphname = j;
-lastChange = "2016-05-06 20:28:43 +0000";
+lastChange = "2022-01-27 14:02:53 +0000";
 layers = (
 {
 background = {
@@ -77401,6 +77364,7 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = jdotless;
 },
 {
@@ -77839,7 +77803,7 @@ transform = "{1, 0, 0, 1, 325, 0}";
 }
 );
 layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
-width = 449;
+width = 448;
 }
 );
 unicode = 0140;
@@ -84206,9 +84170,11 @@ options = 4;
 },
 {
 place = "{173.5, 20.5}";
+type = Stem;
 },
 {
 place = "{745, 21}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -85265,25 +85231,23 @@ position = "{1507, 383}";
 components = (
 {
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 1181, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 1181, 0}";
 },
 {
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 783, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 783, 0}";
 },
 {
 alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 679, 0}";
 piece = {
-Width = 343.432;
+Width = 343.43201;
 };
+transform = "{1, 0, 0, 1, 679, 0}";
 }
 );
 paths = (
@@ -85326,25 +85290,23 @@ nodes = (
 components = (
 {
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 783, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 783, 0}";
 },
 {
 alignment = -1;
 name = _part.headline;
-transform = "{1, 0, 0, 1, 679, 0}";
 piece = {
-Width = 343.432;
+Width = 343.43201;
 };
+transform = "{1, 0, 0, 1, 679, 0}";
 },
 {
 name = _part.knmU.headlines;
-transform = "{1, 0, 0, 1, 1181, 0}";
 piece = {
-"Terminal Height" = 198;
 };
+transform = "{1, 0, 0, 1, 1181, 0}";
 }
 );
 guideLines = (
@@ -85444,10 +85406,10 @@ name = knJHA;
 },
 {
 name = _part.knVirama;
-transform = "{1, 0, 0, 1, 1388, 0}";
 piece = {
 Width = 219;
 };
+transform = "{1, 0, 0, 1, 1388, 0}";
 }
 );
 };
@@ -85459,10 +85421,9 @@ name = knRA.base;
 {
 alignment = -1;
 name = _part.knmU;
-transform = "{1, 0, 0, 1, 798, 0}";
 piece = {
-"Terminal Height" = 200.309;
 };
+transform = "{1, 0, 0, 1, 798, 0}";
 },
 {
 alignment = -1;
@@ -86558,7 +86519,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2016-04-07 02:21:38 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -86586,7 +86547,7 @@ unicode = 00BD;
 },
 {
 glyphname = onequarter;
-lastChange = "2016-04-07 02:21:38 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -86614,7 +86575,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2016-04-07 02:21:38 +0000";
+lastChange = "2022-01-27 14:03:29 +0000";
 layers = (
 {
 components = (
@@ -92508,6 +92469,7 @@ hints = (
 {
 horizontal = 1;
 place = "{-96, 24}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -97639,12 +97601,12 @@ nodes = (
 );
 }
 );
-width = 573;
 userData = {
 PartSelection = {
 Width = 1;
 };
 };
+width = 573;
 },
 {
 anchors = (
@@ -97755,12 +97717,12 @@ nodes = (
 );
 }
 );
-width = 568;
 userData = {
 PartSelection = {
 Width = 2;
 };
 };
+width = 568;
 }
 );
 partsSettings = (
@@ -97935,12 +97897,12 @@ nodes = (
 );
 }
 );
-width = 441;
 userData = {
 PartSelection = {
 Width = 1;
 };
 };
+width = 441;
 },
 {
 anchors = (
@@ -98038,12 +98000,12 @@ nodes = (
 );
 }
 );
-width = 441;
 userData = {
 PartSelection = {
 Width = 2;
 };
 };
+width = 441;
 }
 );
 partsSettings = (
@@ -98329,12 +98291,12 @@ nodes = (
 );
 }
 );
-width = 500;
 userData = {
 PartSelection = {
 Width = 1;
 };
 };
+width = 500;
 },
 {
 anchors = (
@@ -98400,12 +98362,12 @@ nodes = (
 );
 }
 );
-width = 500;
 userData = {
 PartSelection = {
 Width = 2;
 };
 };
+width = 500;
 }
 );
 partsSettings = (
@@ -98504,11 +98466,6 @@ nodes = (
 }
 );
 width = 399;
-userData = {
-PartSelection = {
-"Terminal Height" = 1;
-};
-};
 }
 );
 },
@@ -98648,13 +98605,12 @@ nodes = (
 );
 }
 );
-width = 250;
 userData = {
 PartSelection = {
-"Arch width" = 1;
 "Headline Width" = 1;
 };
 };
+width = 250;
 },
 {
 anchors = (
@@ -98762,13 +98718,12 @@ nodes = (
 );
 }
 );
-width = 250;
 userData = {
 PartSelection = {
-"Arch width" = 1;
 "Headline Width" = 2;
 };
 };
+width = 250;
 }
 );
 partsSettings = (
@@ -98992,11 +98947,6 @@ nodes = (
 }
 );
 width = 721;
-userData = {
-PartSelection = {
-Height = 1;
-};
-};
 }
 );
 },
@@ -99251,12 +99201,12 @@ nodes = (
 );
 }
 );
-width = 693;
 userData = {
 PartSelection = {
 Width = 1;
 };
 };
+width = 693;
 },
 {
 anchors = (
@@ -99402,12 +99352,12 @@ nodes = (
 );
 }
 );
-width = 693;
 userData = {
 PartSelection = {
 Width = 2;
 };
 };
+width = 693;
 }
 );
 partsSettings = (
@@ -99531,11 +99481,6 @@ nodes = (
 }
 );
 width = 500;
-userData = {
-PartSelection = {
-Width = 1;
-};
-};
 }
 );
 },
@@ -101246,11 +101191,6 @@ nodes = (
 }
 );
 width = 721;
-userData = {
-PartSelection = {
-Height = 1;
-};
-};
 },
 {
 anchors = (
@@ -101351,11 +101291,6 @@ nodes = (
 }
 );
 width = 766;
-userData = {
-PartSelection = {
-Height = 1;
-};
-};
 },
 {
 anchors = (
@@ -101484,11 +101419,6 @@ nodes = (
 }
 );
 width = 721;
-userData = {
-PartSelection = {
-Height = 1;
-};
-};
 }
 );
 },
@@ -101557,7 +101487,6 @@ components = (
 alignment = -1;
 name = _part.knmE;
 piece = {
-"Arch width" = 327;
 "Headline Width" = 235;
 };
 }
@@ -101599,13 +101528,12 @@ nodes = (
 );
 }
 );
-width = 157;
 userData = {
 PartSelection = {
-"Arch width" = 1;
 "Headline Width" = 1;
 };
 };
+width = 157;
 }
 );
 partsSettings = (
@@ -101702,11 +101630,6 @@ nodes = (
 }
 );
 width = 399;
-userData = {
-PartSelection = {
-"Terminal Height" = 1;
-};
-};
 },
 {
 anchors = (
@@ -101791,11 +101714,6 @@ nodes = (
 }
 );
 width = 451;
-userData = {
-PartSelection = {
-"Terminal Height" = 1;
-};
-};
 },
 {
 anchors = (
@@ -101880,11 +101798,6 @@ nodes = (
 }
 );
 width = 451;
-userData = {
-PartSelection = {
-"Terminal Height" = 1;
-};
-};
 },
 {
 anchors = (
@@ -101959,11 +101872,6 @@ nodes = (
 }
 );
 width = 396;
-userData = {
-PartSelection = {
-"Terminal Height" = 1;
-};
-};
 }
 );
 leftMetricsKey = _part.knmU;
@@ -103270,7 +103178,6 @@ width = 955;
 );
 }
 );
-disablesNiceNames = 1;
 instances = (
 {
 customParameters = (
