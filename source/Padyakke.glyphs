@@ -94422,6 +94422,62 @@ rightKerningGroup = multiply;
 unicode = 00D7;
 },
 {
+glyphname = divide;
+lastChange = "2022-01-27 14:39:20 +0000";
+layers = (
+{
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+paths = (
+{
+closed = 1;
+nodes = (
+"70 247 LINE",
+"70 224 LINE",
+"567 224 LINE",
+"567 247 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"370 350 OFFCURVE",
+"396 371 OFFCURVE",
+"396 399 CURVE SMOOTH",
+"396 428 OFFCURVE",
+"370 450 OFFCURVE",
+"320 450 CURVE SMOOTH",
+"271 450 OFFCURVE",
+"244 428 OFFCURVE",
+"244 399 CURVE SMOOTH",
+"244 371 OFFCURVE",
+"271 350 OFFCURVE",
+"320 350 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"370 20 OFFCURVE",
+"396 41 OFFCURVE",
+"396 69 CURVE SMOOTH",
+"396 98 OFFCURVE",
+"370 120 OFFCURVE",
+"320 120 CURVE SMOOTH",
+"271 120 OFFCURVE",
+"244 98 OFFCURVE",
+"244 69 CURVE SMOOTH",
+"244 41 OFFCURVE",
+"271 20 OFFCURVE",
+"320 20 CURVE SMOOTH"
+);
+}
+);
+width = 637;
+}
+);
+unicode = 00F7;
+},
+{
 color = 0;
 glyphname = equal;
 lastChange = "2016-05-06 20:28:44 +0000";
