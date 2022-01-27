@@ -1,5 +1,8 @@
 {
 .appVersion = "3091";
+DisplayStrings = (
+"/thinspace"
+);
 classes = (
 {
 code = "A A.alt Aacute Abreve Acircumflex Acircumflexhookabove Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q Q.swsh R R.swsh Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Delta Omega";
@@ -87064,6 +87067,18 @@ width = 272;
 }
 );
 unicode = 00A0;
+},
+{
+glyphname = thinspace;
+lastChange = "2022-01-27 14:43:23 +0000";
+layers = (
+{
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+width = 136;
+}
+);
+widthMetricsKey = "=space/2";
+unicode = 2009;
 },
 {
 color = 0;
