@@ -98205,6 +98205,22 @@ rightKerningGroup = doubleprimemod;
 unicode = 02B9;
 },
 {
+glyphname = uni02BC;
+lastChange = "2022-01-27 14:41:31 +0000";
+layers = (
+{
+components = (
+{
+name = quoteright;
+}
+);
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+width = 267;
+}
+);
+unicode = 02BC;
+},
+{
 color = 0;
 glyphname = commaturnedabove;
 lastChange = "2022-01-27 14:34:36 +0000";
