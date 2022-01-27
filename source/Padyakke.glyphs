@@ -528,6 +528,11 @@ name = DisableAllAutomaticBehaviour;
 value = 1;
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = note;
 value = "Conjunct Size: scale width to 98.3%";
 }
