@@ -17,7 +17,7 @@ code = "knmvR.following knmvRR.following knAIlengthmark.following knKAc2.followi
 name = BELOW_BASE_MARKS_FOLLOWING;
 }
 );
-copyright = "Copyright (c) 2015 The Padyakke Project Authors (padyakkefonts@gmail.com). Padyakke is a trademark of Dunwich Type Founders.";
+copyright = "Copyright (c) 2015 The Padyakke Project Authors (https://github.com/DunwichType/Padyakke_Libre)";
 customParameters = (
 {
 name = glyphOrder;
