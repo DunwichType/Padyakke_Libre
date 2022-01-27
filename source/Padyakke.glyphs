@@ -545,6 +545,10 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
+name = trademark;
+value = "Padyakke is a trademark of Dunwich Type Founders.";
+},
+{
 name = note;
 value = "Conjunct Size: scale width to 98.3%";
 }
