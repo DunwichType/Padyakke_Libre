@@ -3412,8 +3412,6 @@ background = {
 components = (
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 979, 0}";
 },
 {
@@ -3425,8 +3423,6 @@ transform = "{1, 0, 0, 1, 607, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 492, 0}";
 },
 {
@@ -3438,8 +3434,6 @@ components = (
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 930, 0}";
 },
 {
@@ -3453,8 +3447,6 @@ transform = "{1, 0, 0, 1, 428, 0}";
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 532, 0}";
 },
 {
@@ -3490,8 +3482,6 @@ transform = "{1, 0, 0, 1, 438, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 513, 0}";
 },
 {
@@ -3524,8 +3514,6 @@ transform = "{1, 0, 0, 1, 428, 0}";
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 532, 0}";
 }
 );
@@ -7615,8 +7603,6 @@ components = (
 {
 alignment = -1;
 name = _part.knmE;
-piece = {
-};
 }
 );
 guideLines = (
@@ -8482,8 +8468,6 @@ transform = "{1, 0, 0, 1, -51, 0}";
 {
 alignment = -1;
 name = _part.knmE;
-piece = {
-};
 transform = "{1, 0, 0, 1, -524, 0}";
 }
 );
@@ -8815,8 +8799,6 @@ nodes = (
 components = (
 {
 name = _part.knmAU;
-piece = {
-};
 }
 );
 guideLines = (
@@ -12281,8 +12263,6 @@ name = knVA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1031, 0}";
 }
 );
@@ -29243,8 +29223,6 @@ name = knVA;
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1036, 0}";
 },
 {
@@ -29290,15 +29268,11 @@ components = (
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1181, 0}";
 },
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 783, 0}";
 },
 {
@@ -36729,8 +36703,6 @@ background = {
 components = (
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1016, 0}";
 },
 {
@@ -36977,8 +36949,6 @@ nodes = (
 components = (
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1207, 0}";
 }
 );
@@ -37211,8 +37181,6 @@ nodes = (
 components = (
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1215, 0}";
 }
 );
@@ -41228,8 +41196,6 @@ transform = "{1, 0, 0, 1, 15, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 779, 0}";
 }
 );
@@ -41373,8 +41339,6 @@ name = knNGA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
@@ -41401,8 +41365,6 @@ name = knCA;
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
@@ -41428,8 +41390,6 @@ name = knCHA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1149, 0}";
 }
 );
@@ -41455,8 +41415,6 @@ name = knJA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
@@ -41482,8 +41440,6 @@ name = knJHA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1593, 0}";
 }
 );
@@ -41650,8 +41606,6 @@ name = knTTA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1148, 0}";
 }
 );
@@ -41677,8 +41631,6 @@ name = knTTHA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
@@ -41704,8 +41656,6 @@ name = knDDA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1105, 0}";
 }
 );
@@ -41731,8 +41681,6 @@ name = knDDHA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1105, 0}";
 }
 );
@@ -41758,8 +41706,6 @@ name = knNNA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1136, 0}";
 }
 );
@@ -41785,8 +41731,6 @@ name = knTA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 865, 0}";
 }
 );
@@ -41827,8 +41771,6 @@ transform = "{1, 0, 0, 1, 425, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1100, 0}";
 }
 );
@@ -41854,8 +41796,6 @@ name = knDA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1100, 0}";
 }
 );
@@ -41881,8 +41821,6 @@ name = knDHA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1100, 0}";
 }
 );
@@ -41908,8 +41846,6 @@ name = knNA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 927, 0}";
 }
 );
@@ -42206,8 +42142,6 @@ name = knBA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
@@ -42240,8 +42174,6 @@ transform = "{1, 0, 0, 1, 559, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1071, 0}";
 }
 );
@@ -42292,8 +42224,6 @@ name = knYA.base;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1579, 0}";
 }
 );
@@ -42319,8 +42249,6 @@ name = knRA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
@@ -42346,8 +42274,6 @@ name = knLA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 994, 0}";
 }
 );
@@ -42463,8 +42389,6 @@ name = knSHA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 873, 0}";
 }
 );
@@ -42490,8 +42414,6 @@ name = knSSA;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1015, 0}";
 }
 );
@@ -42521,8 +42443,6 @@ transform = "{1, 0, 0, 1, 436, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 955, 0}";
 }
 );
@@ -42574,8 +42494,6 @@ name = knRRA.base;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1145, 0}";
 }
 );
@@ -43053,8 +42971,6 @@ name = knLLLA.base;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1145, 0}";
 }
 );
@@ -43080,8 +42996,6 @@ name = knKA;
 },
 {
 name = _part.knmUU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 712, 0}";
 }
 );
@@ -44701,14 +44615,10 @@ transform = "{1, 0, 0, 1, 2, 0}";
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1198, 0}";
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 800, 0}";
 },
 {
@@ -45633,8 +45543,6 @@ name = knKA.base;
 },
 {
 name = _part.knmE;
-piece = {
-};
 transform = "{1, 0, 0, 1, 639, 0}";
 }
 );
@@ -45682,8 +45590,6 @@ name = knGA.base;
 },
 {
 name = _part.knmE;
-piece = {
-};
 transform = "{1, 0, 0, 1, 595, 0}";
 }
 );
@@ -47037,8 +46943,6 @@ name = knJHA.base;
 {
 alignment = -1;
 name = _part.knmE;
-piece = {
-};
 transform = "{1, 0, 0, 1, 584, 0}";
 }
 );
@@ -47641,8 +47545,6 @@ name = knTHA.base;
 },
 {
 name = _part.knmE;
-piece = {
-};
 transform = "{1, 0, 0, 1, 859, 0}";
 }
 );
@@ -48049,8 +47951,6 @@ name = knVA.base;
 },
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1031, 0}";
 },
 {
@@ -48241,8 +48141,6 @@ name = knRA.base;
 },
 {
 name = _part.knmE;
-piece = {
-};
 transform = "{1, 0, 0, 1, 584, 0}";
 }
 );
@@ -50970,8 +50868,6 @@ nodes = (
 components = (
 {
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 786, 0}";
 },
 {
@@ -52202,15 +52098,11 @@ transform = "{1, 0, 0, 1, 959, 0}";
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1196, 0}";
 },
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 798, 0}";
 },
 {
@@ -52969,8 +52861,6 @@ name = knVA;
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1031, 0}";
 },
 {
@@ -55120,8 +55010,6 @@ name = knVA;
 {
 alignment = -1;
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1036, 0}";
 },
 {
@@ -58418,15 +58306,11 @@ transform = "{1, 0, 0, 1, 959, 0}";
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1196, 0}";
 },
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 798, 0}";
 }
 );
@@ -61840,14 +61724,10 @@ nodes = (
 components = (
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1181, 0}";
 },
 {
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 783, 0}";
 }
 );
@@ -85113,14 +84993,10 @@ position = "{1507, 383}";
 components = (
 {
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1181, 0}";
 },
 {
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 783, 0}";
 },
 {
@@ -85172,8 +85048,6 @@ nodes = (
 components = (
 {
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 783, 0}";
 },
 {
@@ -85186,8 +85060,6 @@ transform = "{1, 0, 0, 1, 679, 0}";
 },
 {
 name = _part.knmU.headlines;
-piece = {
-};
 transform = "{1, 0, 0, 1, 1181, 0}";
 }
 );
@@ -85303,8 +85175,6 @@ name = knRA.base;
 {
 alignment = -1;
 name = _part.knmU;
-piece = {
-};
 transform = "{1, 0, 0, 1, 798, 0}";
 },
 {
@@ -104283,15 +104153,10 @@ instances = (
 {
 customParameters = (
 {
-name = "GASP Table";
-value = "New Value";
-},
-{
 name = "TTFAutohint options";
-value = "--hinting-range-min=14 --hinting-range-max=48 --fallback-stem-width=24 --strong-stem-width=GD";
+value = "--hinting-range-min=14 --hinting-range-max=48 --fallback-stem-width=24 --stem-width-mode=qss";
 }
 );
-interpolationWeight = 0;
 instanceInterpolations = {
 "034236B8-3FA8-43DA-9EDA-EFF269A687EC" = 1;
 };
