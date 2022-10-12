@@ -16895,9 +16895,19 @@ unicode = FEFF;
 {
 color = 3;
 glyphname = dottedcircle;
-lastChange = "2016-04-14 21:59:14 +0000";
+lastChange = "2022-10-12 08:28:28 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{281, -33}";
+},
+{
+name = top;
+position = "{281, 429}";
+}
+);
 background = {
 paths = (
 {
