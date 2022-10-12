@@ -553,7 +553,7 @@ name = note;
 value = "Conjunct Size: scale width to 98.3%";
 }
 );
-date = "2015-09-17 23:00:20 +0000";
+date = "2022-10-12 14:05:57 +0000";
 designer = "James Puckett";
 designerURL = "http://www.dunwichtype.com";
 disablesNiceNames = 1;
@@ -108415,5 +108415,5 @@ HV = " ";
 };
 };
 versionMajor = 1;
-versionMinor = 402;
+versionMinor = 500;
 }
